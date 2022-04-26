@@ -178,6 +178,7 @@ section h2{
 #skills{
     box-sizing: border-box;
     height: calc(100vh);
+    padding-bottom: 0;
 
     display: flex;
     flex-flow: column;
@@ -256,7 +257,7 @@ section h2{
 .interests_each{
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1fr, 450px));
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     gap: 2rem;
 
     margin-bottom: 2rem;
